@@ -15,9 +15,9 @@ Hand-on labs created during my training as
 - Window 10 / 11 Client
 
 ## Repository Structure
-docs/—————→ Lab documentation
-scripts/ —————→ PowerShell scripts
-images/ —————→ Screenshots
+- docs/—————→ Lab documentation
+- scripts/ —————→ PowerShell scripts
+- images/ —————→ Screenshots
 
 ## Goal
 To demonstrate practical Windows Server administration
