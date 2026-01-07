@@ -114,4 +114,11 @@ Client successfully joined the domain
 
 ---
 
-##### 
+##### ## 🧩 Notes / Issues
+
+- Client could not join the domain because DNS was pointing to the router.
+  **Fix:** Set client DNS to the Domain Controller IP (192.168.10.10).
+
+- AD DS installation failed due to missing static IP.
+  **Fix:** Configured a static IP before promoting the server.
+
