@@ -11,7 +11,7 @@ The foucus is on core domain functionaltiy, user management, and Group Policy
 - Private virtual network
 
 ## Basic Server Configuration
-- The server was renamed to "DC01"
+- The server was renamed to "DC01"  ![Rename Server](../images/ws2025-rename-server.png)
 - A static IP address was configured on the server
   - IP Adress: 192.168.10.10
   - Subnet Mask: 255.255.255.0
