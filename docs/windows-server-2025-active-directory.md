@@ -44,24 +44,32 @@ The presence of SYSVOL and NETLOGON confirmed that Group Policy and domain logon
 ![SYSVOL and NETLOGON](../images/ws2025-sysvol-netlogon.png)
 
 ## User and OU Management
-An Organizational Unit (OU) named "Users-Lab" was created to organize domain users  ![SYSVOL and NETLOGON](../images/ws2025-create-ou.png)
+An Organizational Unit (OU) named "Users-Lab" was created to organize domain users  
+
+![SYSVOL and NETLOGON](../images/ws2025-create-ou.png)
 A test domain user was created inside the OU:
 - Username: test.user
+  
 ![SYSVOL and NETLOGON](../images/ws2025-create-user.png)
 
 ## Domain Join
-A Windows 11 Client was configured to use the Domain Controller as its DNS server and was successfully joined to the domain "lab.local"  ![GPO Applied - gpresult](../images/client-dns-settings.png)
-The domain user was able to log in successfully on the client system
+A Windows 11 Client was configured to use the Domain Controller as its DNS server and was successfully joined to the domain "lab.local"   
+
+![GPO Applied - gpresult](../images/client-dns-settings.png)
+The domain user was able to log in successfully on the client system  
+
 ![Domain Join Success](../images/client-domain-join-success.png)
 
 ## Group Policy
 A user-based Group Policy Object (GPO) named "Disable-Control-Panel" was created and linked to the "Users-Lab" OU  
-The Policy was configured to restrict access to the Control Panel for domain users
+The Policy was configured to restrict access to the Control Panel for domain users  
+
 ![GPO Applied - gpresult](../images/gpo-create.png)
 ![GPO Applied - gpresult](../images/gpo-disable-control-panel.png)
 
 ## GPO Verification
-The successful application of the Group Policy was verified on the domain-joined client using the "gpresult" command
+The successful application of the Group Policy was verified on the domain-joined client using the "gpresult" command  
+
 ![GPO Applied - gpresult](../images/gpo-gpresult.png)
 
 ## Conclusion
