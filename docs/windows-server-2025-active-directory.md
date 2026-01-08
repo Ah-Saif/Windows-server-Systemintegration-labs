@@ -46,7 +46,8 @@ The presence of SYSVOL and NETLOGON confirmed that Group Policy and domain logon
 ## User and OU Management
 An Organizational Unit (OU) named "Users-Lab" was created to organize domain users  
 
-![SYSVOL and NETLOGON](../images/ws2025-create-ou.png)
+![SYSVOL and NETLOGON](../images/ws2025-create-ou.png)  
+
 A test domain user was created inside the OU:
 - Username: test.user
   
@@ -55,7 +56,8 @@ A test domain user was created inside the OU:
 ## Domain Join
 A Windows 11 Client was configured to use the Domain Controller as its DNS server and was successfully joined to the domain "lab.local"   
 
-![GPO Applied - gpresult](../images/client-dns-settings.png)
+![GPO Applied - gpresult](../images/client-dns-settings.png)  
+
 The domain user was able to log in successfully on the client system  
 
 ![Domain Join Success](../images/client-domain-join-success.png)
