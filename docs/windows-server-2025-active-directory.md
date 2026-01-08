@@ -16,6 +16,7 @@ The foucus is on core domain functionaltiy, user management, and Group Policy
   - IP Adress: 192.168.10.10
   - Subnet Mask: 255.255.255.0
   - DNS Server: 192.168.10.10
+    
   ![Static IP Configuration](../images/ws2025-static-ip.png)
 
 ## Installing Active Directory Domain Services
