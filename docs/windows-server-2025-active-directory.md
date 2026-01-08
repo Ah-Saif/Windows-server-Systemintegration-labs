@@ -20,21 +20,26 @@ The foucus is on core domain functionaltiy, user management, and Group Policy
   ![Static IP Configuration](../images/ws2025-static-ip.png)
 
 ## Installing Active Directory Domain Services
-The Active Directory Domain Services role was installed using Server Manager without pronoting the server initially ![AD DS Installation](../images/ws2025-install-adds.png)
+The Active Directory Domain Services role was installed using Server Manager without pronoting the server initially  
+![AD DS Installation](../images/ws2025-install-adds.png)
 
 ## Domian Controller Promotion
 The server was promoted to a Domain Controller by creating a new forest with the domain name:
 - Domian name: lab.local
 - DNS Server: Installed automatically during promotion
 The server was restarted after the promotion process
+
 ![Domain Controller Promotion](../images/ws2025-promote-dc.png)
 
 ## Verification
 The Active Directory installation was verified by checking:
-- Active Directory User and Computers (ADUC) ![Active Directory Users and Computers](../images/ws2025-aduc.png)
-- DNS Forward Lookup Zones ![DNS Forward Lookup Zone](../images/ws2025-dns-zone.png)
+- Active Directory User and Computers (ADUC)
+  ![Active Directory Users and Computers](../images/ws2025-aduc.png)
+- DNS Forward Lookup Zones
+  ![DNS Forward Lookup Zone](../images/ws2025-dns-zone.png)
 - SYSVOL and NETLOGON shared folders 
 The presence of SYSVOL and NETLOGON confirmed that Group Policy and domain logon functionality were working correctly
+
 ![SYSVOL and NETLOGON](../images/ws2025-sysvol-netlogon.png)
 
 ## User and OU Management
