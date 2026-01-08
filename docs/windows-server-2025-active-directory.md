@@ -36,6 +36,7 @@ The Active Directory installation was verified by checking:
 - Active Directory User and Computers (ADUC)
   ![Active Directory Users and Computers](../images/ws2025-aduc.png)
 - DNS Forward Lookup Zones
+  
   ![DNS Forward Lookup Zone](../images/ws2025-dns-zone.png)
 - SYSVOL and NETLOGON shared folders 
 The presence of SYSVOL and NETLOGON confirmed that Group Policy and domain logon functionality were working correctly
