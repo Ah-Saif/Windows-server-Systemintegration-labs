@@ -1,24 +1,44 @@
-# Windows-server-Systemintegration-labs
-Hand-on labs created during my training as 
-**Fachinformatiker für Systemintegration**
+# Windows Server 2025 – System Integration Labs
 
-## Topics Covered
+This repository contains hands-on labs focused on Windows Server administration and Active Directory as part of my background as a **Fachinformatiker für Systemintegration**.
+
+The labs are designed to demonstrate practical system administration
+skills using realistic enterprise-style scenarios.
+
+## Technologies & Topics
 - Windows Server 2025
-- Active Directory Domian Services (AD DS)
-- Group Policy Object (GPO)
-- DNS & DHCP
-- Basic PowerShell Automation
+- Active Directory Domain Services (AD DS)
+- DNS
+- Organizational Units (OU)
+- User and Group Management
+- Group Policy Objects (GPO)
+- Windows Client Domain Integration
 
-## Lab Enviroment
-- Hyper-V
-- Windows Server 2025
-- Window 10 / 11 Client
+## Lab Environment
+- Hyper-V virtual machines
+- Windows Server 2025 (Domain Controller)
+- Windows 11 (Domain Client)
+- Internal virtual network
 
-## Repository Structure
-- docs/—————→ Lab documentation
-- scripts/ —————→ PowerShell scripts
-- images/ —————→ Screenshots
+## Available Labs
+#### Windows Server 2025 – Active Directory Lab
+A complete Active Directory setup including domain creation, client integration, user management, and Group Policy enforcement.
+**Lab documentation:**  
+`docs/windows-server-2025-active-directory.md`
+
+## Screenshots & Verification
+The lab documentation includes screenshots and command-line verification (e.g. `gpresult`) to confirm correct configuration and policy application.
 
 ## Goal
-To demonstrate practical Windows Server administration
-skill with clear documentation and automation examples
+To showcase practical Windows Server and Active Directory
+administration skills with clear documentation and structured labs.
+
+## About Me
+ Fachinformatiker für Systemintegration  
+ Windows & Linux System Administration  
+ Focus on hands-on labs, documentation, and automation basics
+
+## GitHub Profile
+If you are viewing this repository as part of a job application,
+you can find additional labs and projects on my GitHub profile.
+
