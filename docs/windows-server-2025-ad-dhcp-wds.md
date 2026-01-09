@@ -21,10 +21,14 @@ The goal of this lab is to extend an existing Active Directory enviroment with e
 ### Active Directory Exension
 - Added a second domain controller (DC02)
 - Verified AD replication between DC01 and DC02
-![DC02 Computer Rename](../images/ad-dhcp-failover-wds/ws2025-dc02-rename.png)
-![DC02 Joined Domain](../images/ad-dhcp-failover-wds/ws2025-dc02-domain-joined.png)
-![Install AD DS on DC02](../images/ad-dhcp-failover-wds/ws2025-dc02-install-adds.png)
-![Promote DC02 to Domain Controller](../images/ad-dhcp-failover-wds/ws2025-dc02-promote-existing-domain.png)
+#### Computer Rename
+![DC02 Computer Rename](../images/ad-dhcp-failover-wds/ws2025-dc02-rename.png)  
+#### Joined Domain
+![DC02 Joined Domain](../images/ad-dhcp-failover-wds/ws2025-dc02-domain-joined.png)  
+#### Install AD DS On DC02
+![Install AD DS on DC02](../images/ad-dhcp-failover-wds/ws2025-dc02-install-adds.png)  
+#### Promote DC02 to Domain Controller
+![Promote DC02 to Domain Controller](../images/ad-dhcp-failover-wds/ws2025-dc02-promote-existing-domain.png)  
 ![DC02 Promoted Successfully](../images/ad-dhcp-failover-wds/ws2025-dc02-promoted.png)
 
 ### DNS
