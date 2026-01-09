@@ -42,14 +42,23 @@ The goal of this lab is to extend an existing Active Directory enviroment with e
 - Configured IPv4 scope (192.168.10.0/24)
 - Implemented DHCP Failover between DC01 and DC02
 - Tested lease replication and failover behavior
+####DHCP Install
 ![Install DHCP Server](../images/ad-dhcp-failover-wds/ws2025-install-dhcp.png)
-![DHCP Authorized in Active Directory](../images/ad-dhcp-failover-wds/ws2025-dhcp-authorized.png)
-![DHCP Server IP Configuration](../images/ad-dhcp-failover-wds/ws2025-dhcp-ip.png)
-![DHCP Scope Range](../images/ad-dhcp-failover-wds/ws2025-dhcp-scope-range.png)
-![DHCP Gateway Not Configured](../images/ad-dhcp-failover-wds/ws2025-dhcp-gateway-empty.png)
-![DHCP DNS Options](../images/ad-dhcp-failover-wds/ws2025-dhcp-dns-options.png)
-![DHCP Scope Active](../images/ad-dhcp-failover-wds/ws2025-dhcp-scope-active.png)
-![DHCP Failover Configured](../images/ad-dhcp-failover-wds/dhcp-failover-configured.png)
+#### DHCP Authorization
+![DHCP Authorized in Active Directory](../images/ad-dhcp-failover-wds/ws2025-dhcp-authorized.png)  
+#### DHCP Server IP Configuration
+![DHCP Server IP Configuration](../images/ad-dhcp-failover-wds/ws2025-dhcp-ip.png)  
+#### DHCP Scope Range
+![DHCP Scope Range](../images/ad-dhcp-failover-wds/ws2025-dhcp-scope-range.png)  
+#### DHCP Gateway
+![DHCP Gateway Not Configured](../images/ad-dhcp-failover-wds/ws2025-dhcp-gateway-empty.png)  
+#### DHCP DNS Options
+![DHCP DNS Options](../images/ad-dhcp-failover-wds/ws2025-dhcp-dns-options.png)  
+#### DHCP Scope Active
+![DHCP Scope Active](../images/ad-dhcp-failover-wds/ws2025-dhcp-scope-active.png)  
+#### DHCP Failover Configuration
+![DHCP Failover Configured](../images/ad-dhcp-failover-wds/dhcp-failover-configured.png)  
+#### DHCP Insatll on DC02
 ![DHCP Installed on DC02](../images/ad-dhcp-failover-wds/dhcp-dc02-installed.png)
 
 ### Windows Deployment Services (WDS)
