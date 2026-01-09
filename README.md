@@ -24,7 +24,11 @@ skills using realistic enterprise-style scenarios.
 #### Windows Server 2025 – Active Directory Lab
 A complete Active Directory setup including domain creation, client integration, user management, and Group Policy enforcement.
 **Lab documentation:**  
-`docs/windows-server-2025-active-directory.md`
+`docs/windows-server-2025-active-directory.md`  
+### Windows Server 2025 - AD, DHCP Failover & WDS  
+An advanced continuation lab extending the Active Directory environment with high availability networking services and automated OS deployment.  
+**Lab documentation:**  
+`docs/windows-server-2025-ad-dhcp-wds.md`
 
 ## Screenshots & Verification
 The lab documentation includes screenshots and command-line verification (e.g. `gpresult`) to confirm correct configuration and policy application.
